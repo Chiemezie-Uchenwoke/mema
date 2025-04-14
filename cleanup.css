@@ -20,12 +20,14 @@
 
 /* ===========  H E A D E R  =========== */
 header {
-   background-color: var(--1stBlue);
+   background-color: var(--white);
+   /* filter: brightness(0.9); */
    display: flex;
    align-items: center;
    justify-content: center;
    gap: 1.5rem;
    padding: 1rem 0;
+   border-bottom: 1px solid rgba(0, 0, 0, 0.2);
 }
 
 header img {
@@ -41,7 +43,7 @@ header img {
 header a {
    display: flex;
    text-decoration: none;
-   color: white;
+   color: black;
 }
 
 header h1 {
